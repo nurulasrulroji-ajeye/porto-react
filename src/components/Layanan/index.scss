@@ -1,0 +1,97 @@
+.services{
+  width: 60vw;
+  position: absolute;
+  right: 0;
+  margin-top: -50px;
+  margin-right: 20px;
+  height: 100vh;
+  background-color: transparent;
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .web-dev{
+      margin-bottom: 20px;
+      width: 100%;
+
+      h2{
+        text-align: center;
+        color: #ffd700;
+        font-family: 'Coolvetica';
+        font-size: 24px;
+      }
+      p{
+        margin: 10px auto;
+        margin-top: -10px;
+        max-width: 80%;
+        text-align: center;
+      }
+    }
+
+    .media{
+      margin-bottom: 20px;
+      width: 100%;
+
+      h2{
+        text-align: center;
+        color: #ffd700;
+        font-family: 'Coolvetica';
+        font-size: 24px;
+      }
+      p{
+        margin: 10px auto;
+        margin-top: -10px;
+        max-width: 80%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .service-page{
+    top: 0px;
+    height: 100vh;
+    
+    .text-zone{
+      margin-top: -80px;
+
+      p{
+        max-width: 90%;
+      }
+    }
+  }
+
+  .services{
+    bottom: -250px;
+    width: 100%;
+    left: 0px;
+    margin-bottom: -30px;
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .web-dev{
+        margin-bottom: 20px;
+        width: 100%;
+  
+        h2{
+          text-align: center;
+          color: #ffd700;
+          font-family: 'Coolvetica';
+          font-size: 24px;
+        }
+        p{
+          margin: 10px auto;
+          margin-top: -10px;
+          max-width: 80%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
